@@ -33,6 +33,17 @@ public class Main {
         v1.modelo = "Ka";
         System.out.println(v3.modelo + " " + v3.marca + " " + v3.cor);
 
+        String marca = "VW";
+        String modelo = "Gol";
+        String cor = "Laranja";
+
+        System.out.println( v1.validaQuantidadePortas(1));
+        System.out.println( v1.validaQuantidadePortas(4));
+
+        boolean retorno = v1.validaQuantidadePortas(1);
+        System.out.println(retorno);
+
+        v1.imprimir();
     }
 
 }
